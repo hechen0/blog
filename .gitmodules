@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:hechen0/hechen0.github.io.git
+[submodule "themes/hugo-journal"]
+	path = themes/hugo-journal
+	url = https://github.com/damiencaselli/hugo-journal
