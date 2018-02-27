@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://hechen0.com/"
 languageCode = "zh-cn"
-title = "何晨的博客"
+title = "何晨的网志"
 theme = "hugo-journal"
