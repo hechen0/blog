@@ -1,4 +1,6 @@
+baseURL="http://hechen0.com"
 theme = "coder"
+googleAnalytics = "UA-57183016-8"
 
 [params]
     author = "何晨"
@@ -15,6 +17,6 @@ theme = "coder"
     url = "https://twitter.com/hechen0_/"
 
 [[menu.main]]
-    name = "Blog"
+    name = "博客"
     weight = 1
     url = "/posts/"
