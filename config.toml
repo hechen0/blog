@@ -1,4 +1,20 @@
-baseURL = "http://hechen0.com/"
-languageCode = "zh-cn"
-title = "何晨的网志"
-theme = "hugo-journal"
+theme = "coder"
+
+[params]
+    author = "何晨"
+    description = "一届码农"
+    keywords = "博客,开发者"
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/hechen0/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/hechen0_/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url = "/posts/"
