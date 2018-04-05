@@ -8,15 +8,23 @@ googleAnalytics = "UA-57183016-8"
     keywords = "博客,开发者"
 
 [[params.social]]
-    name = "Github"
+    name = "博客"
     weight = 1
+    url = "/posts/"
+[[params.social]]
+    name = "Github"
+    weight = 2
     url = "https://github.com/hechen0/"
 [[params.social]]
     name = "Twitter"
-    weight = 2
+    weight = 3
     url = "https://twitter.com/hechen0_/"
 
 [[menu.main]]
     name = "博客"
     weight = 1
     url = "/posts/"
+[[menu.main]]
+    name = "主页"
+    weight = 2
+    url = "/"
