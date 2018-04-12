@@ -1,6 +1,8 @@
 baseURL="http://hechen0.com"
 theme = "coder"
 googleAnalytics = "UA-57183016-8"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
 
 [params]
     author = "何晨"
