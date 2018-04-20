@@ -37,12 +37,11 @@ con:
 * 因为只有一个key，所以在并发写的情况下，LIST中的顺序和数据库中的顺序可能不一样，不太适合频繁写的场景
 
 ## 方案三
-redis的zset配合hash是第三种方案。排序权重就是zset中的score值，比如可以用时间戳作为元素的score，分页使用ZRANGEBYSCORE命令，配合上ZRANGEBYSCORE支持的LIMIT offset count，取具体的数据还是使用hash。
+redis的zset配合hash是第三种方案。排序权重就是zset中的score值，比如可以用时间戳作为元素的score，分页使用ZRANGEBYSCORE命令，配合上zrangebyscore支持的limit offset，取具体的数据还是使用hash。
 
-pro:
+pro: 前两条和方案二的相同，外加解决了方案二的两个缺陷。
 
-前两条和方案二的相同
-* 支持对元素顺序的更改，如果是按照更新时间戳排序，可以使用ZADD改变某个元素的score值
+* 支持对元素顺序的更改，如果是按照更新时间戳排序，可以使用zadd改变某个元素的score值
 * 即使在并发写的情况，由于元素的顺序只和score值有关，所以并不会出现顺序不一致的情况
 
 
