@@ -10,7 +10,7 @@ pygmentsCodeFences = true
     keywords = "博客,开发者"
 
 [[params.social]]
-    name = "博客"
+    name = "Blog"
     weight = 1
     url = "/posts/"
 [[params.social]]
@@ -23,10 +23,10 @@ pygmentsCodeFences = true
     url = "https://twitter.com/hechen0_/"
 
 [[menu.main]]
-    name = "博客"
+    name = "Blog"
     weight = 1
     url = "/posts/"
 [[menu.main]]
-    name = "主页"
+    name = "Home"
     weight = 2
     url = "/"
