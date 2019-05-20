@@ -1,7 +1,7 @@
 ---
 title: goroutine泄露
 date: 2018-04-21T20:17:06+08:00
-drafts: true
+draft: true
 ---
 
 在go语言中，并发是通过goroutine实现。当goroutine永远阻塞或者进入无限循环状态而没有得到正确处理，但启动这些goroutine的函数就返回时，就产生了goroutine泄露。下面我举几个goroutine泄露的例子。
