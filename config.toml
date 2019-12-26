@@ -4,8 +4,6 @@ googleAnalytics = "UA-57183016-8"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 
-disqusShortname = "hechen0"
-
 [params]
     author = "何晨"
     description = "技术成长之道"
