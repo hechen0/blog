@@ -6,8 +6,8 @@ pygmentsCodeFences = true
 
 [params]
     author = "何晨"
-    description = "一届码农"
-    keywords = "博客,开发者"
+    description = "技术成长之道"
+    keywords = "博客,developer"
 
 [[params.social]]
     name = "Blog"
