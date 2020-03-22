@@ -5,9 +5,10 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 
 [params]
+    title = "技术成长之道"
     author = "何晨"
     description = "技术成长之道"
-    keywords = "博客,developer"
+    keywords = "博客,developer,后端技术,cs,computer science"
 
 [[params.social]]
     name = "Blog"
@@ -17,10 +18,6 @@ pygmentsCodeFences = true
     name = "Github"
     weight = 2
     url = "https://github.com/hechen0/"
-[[params.social]]
-    name = "Twitter"
-    weight = 3
-    url = "https://twitter.com/hechen0_/"
 
 [[menu.main]]
     name = "Blog"
