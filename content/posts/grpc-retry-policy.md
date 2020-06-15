@@ -8,7 +8,7 @@ categories = ["技术"]
 > 本文首发在 [技术成长之道](hechen0.com) 博客，访问 [hechen0.com](hechen0.com) 查看更多，或者微信搜索「技术成长之道」关注我的公众号，或者扫描下方二维码关注
 公众号获得第一时间更新通知！
 
-![微信](http://s.hechen0.com/weixin1.png)
+![微信](http://hechen0.com/img/wechat_qrcode.png)
 
 # 本文让你了解
 
