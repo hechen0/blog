@@ -1,5 +1,5 @@
 baseURL="http://hechen0.com"
-theme = "coder"
+theme = "hugo-coder"
 googleAnalytics = "UA-57183016-8"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
