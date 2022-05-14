@@ -223,7 +223,7 @@ public class HttpHelloWorldServerInitializer extends ChannelInitializer<SocketCh
 
 - Go版本无疑是最简洁的，核心原因在于Go `net/http` 包封装了大量的细节，让程序员的开发心智极大降低，如果看 `net/http` 包的实现，可以看到大量HTTP协议细节，以及各类优化
 - 而在Java世界中，笔者能找到最接近Go `net/http` 包封装的就是 `com.sun.net.httpserver.HttpServer` 包，近似达到Go中 `net/http` 包的效果，也非常简洁；与Go版本差距在于依旧需要关心一些 executor、OutputStream等概念
-- 对比之下 `java nio` 的实现可谓是细节满满，尤其是 `java nio` 的实现让我回到了socket编程，抽象层级和其它三者而言完全不在一个层级之上
+- 对比之下 `java nio` 的实现可谓是细节满满，拉回到了socket编程，抽象层级和其它三者而言完全不在一个层级之上
 - `netty` 的实现则引入了一些新的概念以补足 `java nio` 的缺陷，隐藏起一些底层实现的细节；相比于 `java nio` 的实现而言简单易懂很多，但也引入了 channel、channelFuture 等新的概念
 
 # 性能
