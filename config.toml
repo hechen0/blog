@@ -1,6 +1,6 @@
 baseURL="http://hechen0.com"
 theme = "hugo-coder"
-googleAnalytics = "UA-57183016-8"
+googleAnalytics = "G-7GEY7TGL1K"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 
